@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0, minimum-scale=1"
+		/>
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<meta name="description" content="Divine Home Care" />
+		<meta
+			name="keywords"
+			content="assisted living, activities, care services, dementia care, elderly care, doctor, health, health care, hospital, medical template, nursing home, old care, retail, senior, service etc"
+		/>
+		<title>Divine Home Care Ltd</title>
+		<link rel="icon" href="./assets/logo.ico" />
+		<!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Della+Respira&family=Raleway:wght@400;600&display=swap"
+			rel="stylesheet"
+		/>
+		<!-- Font Awesome -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+			integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<!-- Custom Stylesheet -->
+		<link rel="stylesheet" href="./styles/styles.css" />
+		<!-- Js -->
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"
+			defer
+		></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"
+			defer
+		></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/MotionPathPlugin.min.js"
+			defer
+		></script>
+		<script src="https://unpkg.com/@barba/core" defer></script>
+		<script src="./js/index.js" defer></script>
+	</head>
+	<body data-barba="wrapper">
+		<header>
+			<!-- Navigation section -->
+			<nav class="primary-nav">
+				<div class="logo-container">
+					<img
+						src="./assets/logo1.png"
+						class="logo-img"
+						id="logo"
+						alt="logo for divine home care"
+					/>
+				</div>
+
+				<!-- Navigation links -->
+				<ul class="nav-list text-sm" role="list">
+					<li>
+						<a class="nav-link" href="./index.html">Home</a>
+					</li>
+					<li>
+						<a class="nav-link" href="./about.html">About us</a>
+					</li>
+					<li>
+						<a href="#" class="menu-icon"></a>
+						<div class="menu-container">
+							<a class="nav-link hidden-link" href="./index.html">Home</a>
+							<a class="nav-link hidden-link" href="./about.html">About us</a>
+							<a class="nav-link active" href="./contact.html">Contact Us</a>
+							<a class="nav-link" href="./appointment.html">Get Appointment</a>
+							<a class="nav-link" href="#footer">Socials</a>
+						</div>
+						<div class="menu-bg"></div>
+					</li>
+					<li>
+						<div class="bulb" id="bulb">
+							<i class="fa-regular fa-lightbulb"></i>
+						</div>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<main id="contact" data-barba="container">
+			<section class="section section-contact" id="appointment">
+				<form class="appointment-form clr-dark-2">
+					<ol>
+						<div class="form-fields">
+							<div class="form-control">
+								<li>
+									<span class="label">What's your Name ?</span>
+								</li>
+								<input type="text" required placeholder="williams jones*" />
+							</div>
+							<div class="form-control">
+								<li>
+									<span class="label">What's your Email ?</span>
+								</li>
+								<input type="email" placeholder="info@divinehomecare.co.uk" />
+							</div>
+							<div class="form-control">
+								<li>
+									<span class="label">What's your Phone No.</span>
+								</li>
+								<input type="tel" required placeholder="0044-75886-92235*" />
+							</div>
+							<div class="form-control">
+								<li>
+									<span class="label">Date & Time</span>
+								</li>
+								<input type="date" required />
+								<input type="time" required value="13:30" />
+							</div>
+							<div class="form-control">
+								<li>
+									<span class="label">Your Query message</span>
+								</li>
+								<input
+									type="text"
+									required
+									placeholder="what are you looking for? *"
+								/>
+							</div>
+							<button class="btn btn-2" type="submit">Get Care Now</button>
+						</div>
+					</ol>
+				</form>
+				<!-- Info -->
+				<div class="flex-cl gap-md more-info-container">
+					<div class="flex-cl gap-md more-info mb-md">
+						<div>
+							<div class="flex">
+								<i class="fa-solid fa-phone ml-md clr-primary"></i>
+								<p class="text-lg bold clr-dark-2 ml-md">Phone:</p>
+							</div>
+							<a class="text-md clr-dark-2 ml-md" href="tel:0044 7588692235"
+								>0044-75886-92235</a
+							>
+						</div>
+						<div>
+							<div class="flex">
+								<i class="fa-solid fa-envelope ml-md clr-primary"></i>
+								<p class="text-lg bold clr-dark-2 ml-md">Email:</p>
+							</div>
+							<a
+								class="text-md clr-dark-2 ml-md"
+								href="mailto:info@divinehomecare.co.uk"
+								>info@divinehomecare.uk</a
+							>
+						</div>
+						<div>
+							<div class="flex">
+								<i class="fa-solid fa-location ml-md clr-primary"></i>
+								<p class="text-lg bold clr-dark-2 bold ml-md">Address:</p>
+							</div>
+							<p class="text-sm clr-dark-2 ml-md">
+								Unit 18 -111 Rose walk <br />
+								Leicester business centre<br />
+								Leicester LE4 5HH
+							</p>
+						</div>
+					</div>
+					<a
+						tabindex="-1"
+						href="https://www.google.com/maps/place/Divine+Home+Care/@52.6536389,-1.1252498,17z/data=!3m1!4b1!4m6!3m5!1s0x48776107e610fe1f:0xae065b40a48bb8d2!8m2!3d52.6536389!4d-1.1252498!16s%2Fg%2F11c4bnx80p?authuser=0&hl=en&entry=ttu"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						<div class="gmap" id="gmap">
+							<img src="assets/img/end-sec.jpg" alt="google maps location" />
+						</div>
+					</a>
+				</div>
+			</section>
+		</main>
+
+		<footer class="footer" id="footer">
+			<div class="footer-logo">
+				<div class="flex">
+					<img
+						src="./assets/logo1.png"
+						class="logo-img"
+						id="logo"
+						alt="logo for divine home care"
+					/>
+				</div>
+				<p class="footer-desc">
+					Enhancing Lives, One Caregiver at a Time Divine Home Care, Your
+					Personalized Home Care Solution
+				</p>
+			</div>
+			<div class="footer-links">
+				<ul role="list" class="nav-list flex-cl gap-sm">
+					<li>
+						<a class="nav-link text-lg bold" href="./appointment.html"
+							>Appointment</a
+						>
+					</li>
+					<li>
+						<a class="nav-link text-lg bold active" href="./contact.html"
+							>Contact Us</a
+						>
+					</li>
+					<li>
+						<a class="nav-link text-lg bold" href="./about.html">About Us</a>
+					</li>
+				</ul>
+				<ul role="list" class="nav-list flex-cl gap-sm">
+					<li class="flex gap-sm">
+						<i class="fa-brands fa-instagram fa-2x icon"></i>
+						<a class="nav-link" href="#footer">Instagram</a>
+					</li>
+					<li class="flex gap-sm">
+						<i class="fa-brands fa-2x fa-facebook icon"></i>
+						<a class="nav-link" href="#footer">Facebook</a>
+					</li>
+					<li class="flex gap-sm">
+						<i class="fa-brands fa-2x fa-pinterest icon"></i>
+						<a class="nav-link" href="#footer">Pinterest</a>
+					</li>
+				</ul>
+			</div>
+		</footer>
+		<div id="ball"></div>
+		<p class="bar"></p>
+		<p class="bar"></p>
+		<p class="bar"></p>
+	</body>
+</html>
