@@ -1,0 +1,23 @@
+{
+  "name": "dhc",
+  "version": "1.0.0",
+  "description": "Website for divine home care",
+  "main": "index.html",
+  "scripts": {
+    "build": "parcel build ./*.html --out-dir dist",
+    "start": "parcel ./index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UtkarshSiddhpura/dhc.git"
+  },
+  "author": "Utkarsh Siddhpura",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UtkarshSiddhpura/dhc/issues"
+  },
+  "homepage": "https://github.com/UtkarshSiddhpura/dhc#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
